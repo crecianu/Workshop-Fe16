@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  font-family: "Alata", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: hsl(0deg, 0%, 41%);
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p, li, a, button {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    padding: 0;
+  }
+  .hero nav ul li {
+    position: relative;
+    padding-bottom: 7px;
+  }
+  .hero nav ul li .line {
+    display: none;
+  }
+  .hero nav ul li:hover {
+    cursor: pointer;
+  }
+  .hero nav ul li:hover:not(:first-of-type):after {
+    position: absolute;
+    content: " ";
+    width: 20px;
+    border-bottom: 2px solid hsl(0deg, 0%, 100%);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hero nav ul li:hover .line {
+    display: block;
+    position: absolute;
+    content: " ";
+    width: 20px;
+    border-bottom: 2px solid hsl(0deg, 0%, 100%);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .our-creations .creations article:nth-child(1) {
+    background-image: url("../images/desktop/image-deep-earth.jpg");
+  }
+  .our-creations .creations article:nth-child(1):hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(104, 99, 99, 0.65), rgba(84, 81, 81, 0.2)), url("../images/desktop/image-deep-earth.jpg");
+  }
+  .our-creations .creations article:nth-child(2) {
+    background-image: url("../images/desktop/image-night-arcade.jpg");
+  }
+  .our-creations .creations article:nth-child(2):hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(104, 99, 99, 0.65), rgba(84, 81, 81, 0.2)), url("../images/desktop/image-night-arcade.jpg");
+  }
+  .our-creations .creations article:nth-child(3) {
+    background-image: url("../images/desktop/image-soccer-team.jpg");
+  }
+  .our-creations .creations article:nth-child(3):hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(104, 99, 99, 0.65), rgba(84, 81, 81, 0.2)), url("../images/desktop/image-soccer-team.jpg");
+  }
+  .our-creations .creations article:nth-child(4) {
+    background-image: url("../images/desktop/image-grid.jpg");
+  }
+  .our-creations .creations article:nth-child(4):hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(104, 99, 99, 0.65), rgba(84, 81, 81, 0.2)), url("../images/desktop/image-grid.jpg");
+  }
+  .our-creations .creations article:nth-child(5) {
+    background-image: url("../images/desktop/image-from-above.jpg");
+  }
+  .our-creations .creations article:nth-child(5):hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(104, 99, 99, 0.65), rgba(84, 81, 81, 0.2)), url("../images/desktop/image-from-above.jpg");
+  }
+  .our-creations .creations article:nth-child(6) {
+    background-image: url("../images/desktop/image-pocket-borealis.jpg");
+  }
+  .our-creations .creations article:nth-child(6):hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(104, 99, 99, 0.65), rgba(84, 81, 81, 0.2)), url("../images/desktop/image-pocket-borealis.jpg");
+  }
+  .our-creations .creations article:nth-child(7) {
+    background-image: url("../images/desktop/image-curiosity.jpg");
+  }
+  .our-creations .creations article:nth-child(7):hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(104, 99, 99, 0.65), rgba(84, 81, 81, 0.2)), url("../images/desktop/image-curiosity.jpg");
+  }
+  .our-creations .creations article:nth-child(8) {
+    background-image: url("../images/desktop/image-fisheye.jpg");
+  }
+  .our-creations .creations article:nth-child(8):hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(104, 99, 99, 0.65), rgba(84, 81, 81, 0.2)), url("../images/desktop/image-fisheye.jpg");
+  }
+  .our-creations .creations article:hover h3 {
+    position: relative;
+    z-index: 2;
+    color: hsl(0deg, 0%, 0%);
+  }
+  .our-creations button:hover {
+    background-color: hsl(0deg, 0%, 0%);
+    color: hsl(0deg, 0%, 100%);
+    cursor: pointer;
+  }
+  .footer .social ul li {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .footer .social ul li:hover {
+    cursor: pointer;
+  }
+  .footer .social ul li:hover:after {
+    position: absolute;
+    content: " ";
+    width: 20px;
+    border-bottom: 2px solid hsl(0deg, 0%, 100%);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}/*# sourceMappingURL=desktop.css.map */
